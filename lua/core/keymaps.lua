@@ -7,6 +7,7 @@ map("n", "<Space>", "<Nop>", opts)
 -- Basic stuff
 map("n", "<leader>w", ":w<CR>", opts)
 map("n", "<leader>q", ":q<CR>", opts)
+map({"n", "v"}, "<C-c>", '"+y', { desc = "Yank to clipboard" })
 
 -- Window navigation
 map("n", "<C-h>", "<C-w>h", opts)

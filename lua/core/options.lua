@@ -25,4 +25,3 @@ o.incsearch = true
 o.wrap = false
 o.splitright = true
 o.splitbelow = true
-

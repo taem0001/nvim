@@ -3,7 +3,7 @@ return {
   build = ":TSUpdate",
   event = { "BufReadPost", "BufNewFile" },
   opts = {
-    ensure_installed = { "c", "cpp", "lua", "vim", "vimdoc", "query" },
+    ensure_installed = { "c", "cpp", "lua", "vim", "vimdoc", "query", "javascript", "json" },
     highlight = { enable = true },
     indent = { enable = true },
   },
